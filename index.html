@@ -31,7 +31,8 @@
   }
 </style>
 
-<body class="bg-black debug">
+<body class="bg-black">
+  <!-- SECTION nav-bar -->
   <header class=" container-fluid sticky-top">
     <section class="row">
       <div class="col-12 text-light bg-success">
@@ -39,9 +40,9 @@
       </div>
     </section>
   </header>
-
+  <!-- SECTION background-img & form -->
   <main class="container-fluid">
-    <section class="row hero-img justify-content-between">
+    <section class="row hero-img justify-content-around">
       <div class="col-12 col-md-10 rounded bg-secondary p-4 my-5 form-style">
         <div class="form-floating mb-3">
           <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
@@ -62,50 +63,73 @@
         </div>
         <button class="btn btn-success">Submit</button>
       </div>
-      <div class="col-2 rounded text-light form-panel m-5">
+      <div class="d-none d-md-block rounded text-light form-panel m-5">
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laboriosam. Expedita incidunt aliquam sunt
           dolorum doloremque modi maiores architecto veritatis debitis, minus fugiat voluptates delectus inventore
           consectetur in molestias tempore? Similique sit quae a eaque accusamus exercitationem provident ullam magnam
           sint dolorum. Reiciendis modi eveniet saepe maiores voluptates non pariatur.</p>
       </div>
     </section>
+    <!-- SECTION info & Drop down card -->
+    <!-- NOTE can't get them to flip order -->
     <div class="row">
-      <div class="col-6 mid-lorem text-light fs-5 p-5">
+      <div class="mid-lorem text-light fs-5 p-5 col-12 col-md-6 order-md-2">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, error quo!Tempore?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, autem.</p>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, sapiente quaerat.</p>
       </div>
-      <div class="col-6 fs-2 drop-card">
+      <div class="fs-2 drop-card col-12 col-12 col-md-6 order-md-1">
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat deleniti, voluptas aperiam possimus, sequi
           reiciendis eligendi ullam sint ex beatae assumenda</p>
       </div>
     </div>
+    <!-- SECTION grass img -->
     <section class="row text-light ">
-      <div class="col-6">
+      <div class="col-12 col-md-6">
         <img class="mini-img"
           src="https://images.unsplash.com/photo-1493815793585-d94ccbc86df8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1073&q=80"
           alt="wild grass">
       </div>
-      <div class="col-6 mini-info ps-3 fs-3">
+      <!-- SECTION img-info-->
+      <div class="col-12 col-md-6 mini-info ps-3 fs-3">
         <p class="mdi-pine-tree mdi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sed?</p>
       </div>
     </section>
-    <section class="row justify-content-around m-5">
-      <div class="col-4 bg-light">
-        <p></p>
+    <!-- SECTION the 3 cards -->
+    <section class="row justify-content-around pt-5">
+      <div class="col-12 col-md-2 bg-light small-card">
+        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt assumenda</p>
       </div>
-      <div class="col-4 bg-light high-light">
-        <p class="mdi mdi-star-circle">Lorem, ipsum dolor sit amet consectetur
-          adipisicing elit. Quis minima doloremque, placeat
-          aspernatur sed
-          rerum.</p>
+      <div class="col-12 col-md-3 bg-light big-card">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, expedita asperiores,
+          sequi commodi consequuntur velit tempora alias recusandae ducimus culpa ipsam deleniti adipisci cum sint
+          tempore perspiciatis ex minus veritatis.</p>
       </div>
-      <div class="col-4 bg-light">
-        <p class=""> </p>
+      <div class="col-12 col-md-2 bg-light small-card">
+        <p class="text-center"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    </section>
+    <!-- SECTION ending info -->
+    <section class="row">
+      <div class="col-12  bg-black pt-5">
+        <p class="text-center pt-5 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos suscipit
+          excepturi,
+          asperiores, veniam
+          perspiciatis nemo sit blanditiis eius similique, earum optio? Molestiae id veritatis, rerum optio incidunt in
+          quod. Consequatur.</p>
+        <p class="text-center pt-3 text-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+          exercitationem labore accusantium.</p>
       </div>
     </section>
   </main>
-  <footer>
+  <!-- SECTION footer & ending info -->
+  <footer class="container-fluid pt-5">
+    <div class="bg-black row">
+      <p class="text-center text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente debitis
+        tempore dolorum, quos tenetur quam.
+        Veniam accusantium beatae culpa nam tempore animi distinctio ratione deserunt voluptates? Deleniti tenetur quis
+        doloribus?</p>
+    </div>
 
   </footer>
 </body>

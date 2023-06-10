@@ -5,6 +5,30 @@
   background-position: 10% 60%;
 }
 
+@media only screen and (max-width: 768px) {
+  .hero-img {
+    background-image: none;
+  }
+
+  .form-panel {
+    display: none;
+  }
+
+  .small-card {
+    width: min-content;
+    height: min-content;
+    order: 2;
+  }
+
+  .big-card {
+    width: min-content;
+    height: min-content;
+    order: 1;
+  }
+}
+
+
+
 .form-panel {
   display: flex;
   align-items: center;
@@ -50,13 +74,17 @@
 
 .mini-img {
   max-width: 70%;
-
   padding-left: 25%;
   padding-right: -25%;
 }
 
-.high-light {
-  border: 5px solid goldenrod;
-  max-height: 25vh;
-  max-width: 25vh;
+.big-card {
+  border: 2px solid goldenrod;
+  height: 150px;
+  border-radius: 3%;
+}
+
+.small-card {
+  max-height: 100px;
+  border-radius: 10%;
 }
