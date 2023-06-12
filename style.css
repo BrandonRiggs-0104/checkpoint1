@@ -15,14 +15,12 @@
   }
 
   .small-card {
-    width: min-content;
-    height: min-content;
+    margin-top: 5%;
+    margin-bottom: 10%;
     order: 2;
   }
 
   .big-card {
-    width: min-content;
-    height: min-content;
     order: 1;
   }
 }
@@ -67,6 +65,12 @@
   right: 9%;
 }
 
+@media only screen and (max-width: 768px) {
+  .drop-card {
+    position: static;
+  }
+}
+
 .mini-info {
   padding-top: 8%;
   font-style: italic;
@@ -76,15 +80,20 @@
   max-width: 70%;
   padding-left: 25%;
   padding-right: -25%;
+  margin-top: 20px;
+  margin-bottom: 4rem;
 }
 
 .big-card {
   border: 2px solid goldenrod;
-  height: 150px;
-  border-radius: 3%;
+  height: 5vhvh;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px white;
+
 }
 
 .small-card {
   max-height: 100px;
-  border-radius: 10%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px white;
 }
